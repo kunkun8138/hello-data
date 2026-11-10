@@ -15,7 +15,7 @@ def main() -> None:
     print(f"样本数: {len(temps)}")
     print(f"平均气温: {average(temps):.2f} °C")
     print(f"运行时间: {datetime.now():%Y-%m-%d %H:%M:%S}")
-    print("环境验证通过 ✅")
+    print("环境验证通过")
 
 
 if __name__ == "__main__":
